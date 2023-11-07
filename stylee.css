@@ -10,27 +10,30 @@
 body{
     width: 1440px;
     height: 1000px;
-    background: rgb(48, 48, 48);
+
+    /* background: rgb(48, 48, 48); */
     font-family: Karla;
 }
 
 .container{
     width: 700px;
     height: 500px;
-    box-shadow: 0 0 25px #12121254;
     border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 200px 300px;
     margin: auto;
-     border: 2px solid #FFFFFF;
-     transform: translate(5px, 5px);
+    border: 2px solid #121212;
+    transform: translate(5px, 5px);
+    /* border: 2px solid #FFFFFF;
+    transform: translate(5px, 5px); */
 
 }
 
 .container:hover{
-    transform: translate(0, 0);
-    box-shadow: 5px 5px #FFFFFF;  
+    /* transform: translate(0, 0); */
+    box-shadow: 5px 5px #121212da;
+    /* box-shadow: 5px 5px #FFFFFF;   */
 }
 
 .community{
@@ -39,7 +42,8 @@ body{
     background: #FFFFFF;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
-    height: 200px;
+    height: 198px;
+    border-bottom: 2px solid black;
 }
 
 .community h2{
@@ -67,6 +71,7 @@ body{
     grid-column: 1 / 1;
     background: #2BB3B1;
     border-bottom-left-radius: 5px;
+    border-right: 2px solid black;
 }
 
 .price h3{
